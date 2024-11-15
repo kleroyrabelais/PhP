@@ -93,31 +93,6 @@ foreach($tableau_age as $x => $valeur_de_x) {
     echo "<br>";
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 echo "<table border =1>";
 
 $res = 0;
@@ -129,31 +104,6 @@ echo "<tr><td>8*$x=<td>$res<br></td></td></tr>";
 }
 
 echo "</table>";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
 </body>
 </html>   

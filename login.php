@@ -11,8 +11,8 @@ if (!isset($_POST['btnSeConnecter'])) { /* L'entrée btnSeConnecter est vide = l
     echo '
 
     <form action="login.php" method = "post" ">
-        code: <input name="code" type="text" size ="30"">
-        Mot de passe: <input name="mot_de_passe" type="password" size ="30"">
+        nom: <input name="nom" type="text" size ="30"">
+        code: <input name="code" type="password" size ="30"">
         <input type="submit" name="btnSeConnecter"  value="Se connecter">
 
     </form>';
@@ -29,7 +29,7 @@ if (!isset($_POST['btnSeConnecter'])) { /* L'entrée btnSeConnecter est vide = l
 
     $nom = $_POST['nom'];
 
-    $mot_de_passe = $_POST['mot_de_passe'];
+    $code = $_POST['code'];
 
  
 
@@ -51,7 +51,11 @@ if (!isset($_POST['btnSeConnecter'])) { /* L'entrée btnSeConnecter est vide = l
 
     if ($enregistrement) { // si $enregistrement n'est pas vide = on a trouvé quelque chose -> on est connecté
 
-        echo '<h1>boenvenue dans la base de données '.$enregistrement->civilite.' '.$enregistrement.->nom' !</h1>';
+        echo "<h1>bienvenue dans la base de données".$enregistrement->civilite .$enregistrement->nom." !</h1>";
+
+        while (codepostal = 33000)
+        select (codepostal)
+        from agent
 
     } else { // La requête n'a pas retournée de résultat, on a pas trouvé de ligne correspondant au mel et mot de passe
 
